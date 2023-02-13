@@ -1,0 +1,252 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* banner section start */
+.banner {
+  background-image: url(./images/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 638px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+.banner .container-content {
+  color: white;
+  width: 41%;
+  height: 400px;
+  margin-right: 135px;
+  text-align: right;
+}
+
+.banner .container-content h2 {
+  font-size: 55px;
+  line-height: 65px;
+}
+
+.banner .container-content .para {
+  margin-bottom: 48px;
+  margin-top: 19px;
+}
+
+.banner .container-content p {
+  font-size: 12px;
+}
+
+.banner .container-content a {
+  color: #046a92;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+/* banner section end */
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* failure section start */
+.failure-section {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0rem;
+}
+.failure-section-image {
+  width: 117rem;
+  height: 37rem;
+}
+.failure-section-image img {
+  width: 100%;
+  height: 100%;
+}
+.failure-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.failure-section-content .para p {
+  margin: 1rem 0;
+  color: #3e3e3e;
+  font-size: 13px;
+  word-spacing: 2px;
+  line-height: 20px;
+}
+
+.failure-section-content h2 {
+  font-size: 2.1rem;
+}
+.failure-section-content p {
+  font-size: 13px;
+  color: #3e3e3e;
+  word-spacing: 2px;
+  line-height: 27px;
+}
+
+.failure-section-content p i {
+  color: rgb(29, 212, 29);
+}
+
+.failure-section-content img {
+  width: 100%;
+  height: 100%;
+}
+
+/* failure section end */
+
+/* plans section start */
+.plan-section-container {
+  margin: 95px 0px;
+}
+.plan-section-container h2 {
+  margin-bottom: 40px;
+  font-size: 34px;
+  text-align: center;
+}
+.plan-section-container .plan-section {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-section-container .plan-section .plan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan-section-container .plan-section .plan-card img {
+  width: 75px;
+  height: 75px;
+}
+.plan-section-container .plan-section .plan-card h3 {
+  font-size: 22px;
+  margin: 7px 0px;
+}
+.plan-section-container .plan-section .plan-card p {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 500;
+}
+/* plans section end */
+
+/* call section start */
+
+.call-section-container {
+  width: 55rem;
+  height: 15rem;
+  border-radius: 6px;
+  background-size: cover;
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #0456a2);
+  /* background-blend-mode: screen; */
+  position: relative;
+}
+.call-section-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.call-section-container .call-section {
+  position: absolute;
+  top: 40px;
+  left: 47px;
+}
+
+.call-section-container .call-section h2 {
+  color: white;
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+.call-section-container .call-section .call-button {
+  margin: 29px 0px;
+}
+
+.call-section-container .call-section .call-button a {
+  color: #0667a3;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: white;
+  padding: 12px 24px;
+  border-radius: 3px;
+}
+
+/* call section end */
+
+/* foooter section start */
+
+footer {
+  background-color: #232628;
+
+  /* justify-content: space-between; */
+}
+
+footer .footer-container {
+  width: 70%;
+  height: auto;
+  margin: 130px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+footer .footer-container .about-section {
+  margin: 91px 0px;
+  width: 50%;
+  color: white;
+  font-size: 12px;
+}
+
+footer .footer-container .about-section .social-icon a img {
+  width: 33px;
+  margin-right: 10px;
+}
+
+footer .footer-container .about-section h2 {
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+footer .footer-container .subscription-section {
+  margin: 91px 0px;
+  width: 40%;
+  color: white;
+  margin-right: -130px;
+}
+
+footer .footer-container .subscription-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer .footer-container .subscription-section input {
+  background-color: #232628;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  color: white;
+}
+
+footer .footer-container .subscription-section button {
+  font-size: 1rem;
+  background-color: #205cbf;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* foooter section end */
